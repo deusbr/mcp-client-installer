@@ -1,0 +1,31 @@
+{
+  "name": "mcp-client-installer",
+  "version": "1.0.0",
+  "description": "Zero-dependency, SHA-256 drift-safe atomic MCP server config installer & rollback utility for Claude Desktop, Claude Code, Cursor, and TOML/JSON MCP clients.",
+  "main": "index.cjs",
+  "license": "MIT",
+  "author": "Emerson Almeida <https://github.com/deusbr>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deusbr/mcp-client-installer.git"
+  },
+  "homepage": "https://github.com/deusbr/mcp-client-installer#readme",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "claude-desktop",
+    "cursor",
+    "codex",
+    "atomic-write",
+    "sha256"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.cjs",
+    "README.md",
+    "LICENSE"
+  ]
+}
