@@ -1,5 +1,10 @@
 # mcp-client-installer
 
+[![CI](https://github.com/deusbr/mcp-client-installer/actions/workflows/ci.yml/badge.svg)](https://github.com/deusbr/mcp-client-installer/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node.js >= 18](https://img.shields.io/badge/node-%3E%3D18.0.0-339933?logo=node.js&logoColor=white)](package.json)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](package.json)
+
 Zero-dependency, **SHA-256 drift-safe** atomic configuration installer and rollback utility for **Model Context Protocol (MCP)** servers.
 
 Extracted from [`deusbr/lume`](https://github.com/deusbr/lume) ([`lib/connectors/client-install.cjs`](https://github.com/deusbr/lume/blob/main/lib/connectors/client-install.cjs)), this library lets MCP server authors safely register or uninstall their `stdio` MCP servers in **Claude Desktop**, **Claude Code**, **Cursor**, **Codex**, and custom JSON MCP clients without corrupting configuration files or overwriting manual user edits.
